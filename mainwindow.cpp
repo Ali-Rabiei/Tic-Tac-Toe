@@ -377,6 +377,7 @@ void MainWindow::on_actionNew_Game_triggered()
     ui->draw_count->setText(d);
 
     clearButtons();
+    enableButtons();
 
     turn = true;
     ui->label->setText("X to play");
